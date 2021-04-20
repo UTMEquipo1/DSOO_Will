@@ -33,7 +33,7 @@ public class Inventario {
 	} else {
             System.out.println("El elemento no existe");
 	}
-        this.ListaProductos.remove(i);
+        this.ListaProductos.remove(delate);
         
     }
     public List<Producto> getListaProductos() {
