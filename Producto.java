@@ -6,7 +6,7 @@ public class Producto {
     private int Cantidad;
     private float Precio;
     private String Tipo;
-    private int ID;
+    private String ID;
 	public String getNombre() {
 		return Nombre;
 	}
@@ -37,10 +37,10 @@ public class Producto {
 	public void setTipo(String tipo) {
 		Tipo = tipo;
 	}
-	public int getID() {
+	public String getID() {
 		return ID;
 	}
-	public void setID(int iD) {
+	public void setID(String iD) {
 		ID = iD;
 	} 
 
