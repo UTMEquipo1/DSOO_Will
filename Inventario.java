@@ -19,6 +19,9 @@ public class Inventario {
     public void AnadirInventario(Producto nuevo){
         this.ListaProductos.add(nuevo);
     }
+	
+	
+	//Se va a eliminar El producto del Array List 
     
     public void EliminarInventario(Producto delate){
         int i=0;
